@@ -4,16 +4,6 @@ Version Update 4.21 to 4.25
 
 ## An Unreal Engine 4 project plugin by Descendent Studios
 
-### Overview
-
-While it has robust support for computing ping to the server to which a game client is currently connected, Unreal Engine 4 does not have a natively-supported way to ping an arbitrary host, which is vital for features like server browsers.
-
-Ping is a plugin to do just that.  Not only does it give this functionality to any UE4 project, it also exposes all that functionality to Blueprint, making it easy for any developer to add arbitrary host-pinging to a project.  Also, Ping is compatible with Windows, Mac, and Linux builds of UE4 projects.
-
-Ping is multi-threaded, which means your game will not block while the client is waiting for the echo.
-
-Ping was created for [Descent: Underground](https://descendentstudios.com), and will be updated as necessary for DU.  For questions relating to Ping's development, please contact Tyler Pixley (Github user [Pixley](https://github.com/pixley)).
-
 ### Usage
 
 Ping will need to be built before it can be used.  Your UE4 editor *should* detect that it needs to do the build.  Otherwise, you'll need to recompile your game project.
